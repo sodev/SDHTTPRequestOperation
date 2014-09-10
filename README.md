@@ -6,7 +6,7 @@ Self Authenticating Subclass of AFHTTPRequestOperation
 ##Usage
 SDHTTPRequestOperation is a subclass of AFHTTPRequestOperation, it allows you to specify an AFOAuthCredential and the oAuth URL and have the request perform the authentication loop before completing the request
 
-# you need to overwrite the kClientID and kSecretCode constants in the SDHTTPRequestOperation.m
+NOTE: you need to overwrite the kClientID and kSecretCode constants in the SDHTTPRequestOperation.m
 
 ##Example
     
