@@ -1,7 +1,7 @@
 SDHTTPRequestOperation
 ======================
 
-Self Authenticating Subclass of AFHTTPRequestOperation
+Self Authenticating Subclass of AFHTTPRequestOperation using OAuth2
 
 ##Usage
 SDHTTPRequestOperation is a subclass of AFHTTPRequestOperation, it allows you to specify an AFOAuthCredential and the oAuth URL and have the request perform the authentication loop before completing the request
